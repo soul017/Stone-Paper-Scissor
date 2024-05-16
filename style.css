@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(225, 237, 242);
+}
+.heading {
+  background-color: rgba(58, 61, 146, 0.812);
+  text-align: center;
+  font-size: large;
+  color: rgb(255, 255, 255);
+  line-height: 80px;
+}
+.choice {
+  height: 207px;
+  width: 207px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choice:hover {
+  /* opacity: 0.5; */
+  cursor: pointer;
+  background-color: black;
+}
+.choices {
+  display: flex;
+  justify-content: center;
+  margin-top: 120px;
+  gap: 20px;
+}
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover; /*The object-fit CSS property sets how the 
+  content of a replaced element, such as an <img> or <video>,
+   should be resized to fit its container.*/
+  border-radius: 100px;
+}
+.score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: x-large;
+  font-weight: bolder;
+  text-align: center;
+  gap: 50px;
+  margin-top: 50px;
+}
+#user,
+#comp {
+  font-size: 60px;
+}
+.msg-container {
+  margin-top: 50px;
+  text-align: center;
+}
+#msg {
+  background-color: rgba(58, 61, 146, 0.812);
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+  border-radius: 10px;
+  padding: 10px;
+}
